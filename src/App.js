@@ -1,3 +1,4 @@
+import Head from "./Components/head.component";
 import Navbar from "./Components/navbar.component";
 
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
      
       <Navbar/>
+      <Head/>
 
     </div>
   );
