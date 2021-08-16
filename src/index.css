@@ -40,3 +40,25 @@ img.vert-move {
 .heading{
   margin: 20px;
 }
+.ccardLink{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.ccardLink:hover{
+  color: blue;
+}
+.ccard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.ccard:hover{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: -5px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(174,70,252,1) 100%);
+  color: white;
+  transition: all 0.15s cubic-bezier(0.29, 0.73, 0.74, 1.02)
+}

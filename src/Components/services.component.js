@@ -11,38 +11,46 @@ const Services = ()=>{
         <p className="display-6 text-center heading">Services</p>
 
             <div className="container">
-                <div className="row g-2">
+                <div className="row gy-5">
                     <div className="col-sm">
-                        <div className="card">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
                             <div className="card-body">
                                 <img className="img-fluid" src={AppDev} />
-                                <h5 className="card-title">Mobile App Development</h5>
+                                <h5 className="card-title">App Development</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div className="col-sm">
-                        <div className="card">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
                             <div className="card-body">
                                 <img className="img-fluid" src={WebApp} />
                                 <h5 className="card-title">Web Development</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div className="col-sm">
-                        <div className="card">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
                             <div className="card-body">
                                 <img className="img-fluid" src={GR} />
                                 <h5 className="card-title">Graphic Designing</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div className="col-sm">
-                        <div className="card">
+                        <a className="ccardLink" href="">
+                        <div className="card ccard">
                             <div className="card-body">
                                 <img className="img-fluid" src={MAN} />
                                 <h5 className="card-title">Product Management</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
