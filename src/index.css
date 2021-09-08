@@ -15,7 +15,6 @@
     border: 2px solid blueviolet;
     border-radius: 25px;
     outline: none;
-
     box-shadow: none;
 }
 .head-card{
@@ -131,4 +130,8 @@ footer{
   color: gray;
   top: -5px;
   transition: all 0.15s;
+  }
+  .rss{
+    margin-top: 100px;
+    text-align: center;
   }
