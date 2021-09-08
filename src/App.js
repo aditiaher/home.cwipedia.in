@@ -3,6 +3,7 @@ import Footer from "./Components/footer.component";
 import Head from "./Components/head.component";
 import Location from "./Components/location.component";
 import Navbar from "./Components/navbar.component";
+import RSS from "./Components/rss.component";
 import Services from "./Components/services.component";
 
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Head/>
       <Services/>
+      <RSS/>
       <About/>
       <Location/>
       <Footer/>
