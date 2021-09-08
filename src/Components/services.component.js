@@ -2,8 +2,14 @@ import AppDev from "../assets/ser/app.png"
 import WebApp from "../assets/ser/web.png"
 import MAN from "../assets/ser/man.png"
 import GR from "../assets/ser/graphic.png"
-
+import { useEffect, useState } from "react";
+import Aos  from 'aos';
+import 'aos/dist/aos.css';
 const Services = ()=>{
+
+    useEffect(()=>{
+        Aos.init({duration:500});
+      },[]);
 
     return(
         <>
@@ -14,7 +20,7 @@ const Services = ()=>{
                 <div className="row gy-5">
                     <div className="col-sm">
                         <a className="ccardLink" href="">
-                        <div className="card ccard">
+                        <div  className="card ccard" >
                             <div className="card-body">
                                 <img className="img-fluid" src={AppDev} />
                                 <h5 className="card-title">App Development</h5>
