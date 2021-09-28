@@ -81,6 +81,11 @@ img.vert-move {
   animation: flicker 1.5s infinite alternate;
   color: #fff;
 }
+.vertical-cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Flickering animation */
 @keyframes flicker {
     
@@ -134,4 +139,61 @@ footer{
   .rss{
     margin-top: 100px;
     text-align: center;
+}
+.laptop{
+  margin: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+
+  padding: 1px;
+  border: solid gray 15px;
+}
+.lap-line{
+  margin-top: -49px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: solid gray 15px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* .cam{
+  color: red;
+  position: absolute;
+  margin: ;
+} */
+@media only screen and (max-width: 600px) {
+  .laptop{
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+    padding: 1px;
+    border: solid gray 15px;
   }
+  .lap-line{
+    margin-top: -49px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid gray 15px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+}
+@media only screen and (max-width: 800px) {
+  .laptop{
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+    padding: 1px;
+    border: solid gray 15px;
+  }
+  .lap-line{
+    margin-top: -49px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid gray 15px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+}

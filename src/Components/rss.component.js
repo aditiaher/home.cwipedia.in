@@ -4,6 +4,7 @@ const RSS = ()=>{
     return(
         <>
           <div  className="container rss" > 
+
         <div data-aos="zoom-in-down" className="shadow p-3 mb-5 bg-white rounded">    
             <h1 className="display-3">Diploma Search Engine</h1>
             <small id="emailHelp" className="form-text text-muted">get Diploma (MSBTE) study materials ,fire your query.</small>
