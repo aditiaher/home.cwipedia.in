@@ -13,7 +13,7 @@ const Intern=()=>{
                 <p className="card-text">Hey all, I'm Shivam,a Software Developer Engineer at cwipedia, also I'm passiniate about open-source</p>
                 <a aria-hidden='true' className='fa fa-github' href='https://github.com/0shivamh' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
                 <a aria-hidden='true' className='fa fa-instagram' href='http://instagram.com/shiv.am.h' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
-                <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/shivamh' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+                <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/shivamh' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
                 <hr/>
     
             </div>
@@ -28,7 +28,7 @@ const Intern=()=>{
                 <p className="card-text">Hello All,I am Shriram, a content writer at cwipedia, and passionate about technology</p>
                 <a aria-hidden='true' className='fa fa-github' href='https://github.com/captainaghav' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
                 <a aria-hidden='true' className='fa fa-instagram' href='https://www.instagram.com/captain_gamerff/' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
-                <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/shriram-aghav-6856161a6' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+                <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/shriram-aghav-6856161a6' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
                 <hr/>
             </div>
         </div>,
@@ -42,7 +42,7 @@ const Intern=()=>{
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a aria-hidden='true' className='fa fa-github' href='https://github.com/ParagShirsat' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
                     <a aria-hidden='true' className='fa fa-instagram' href='http://instagram.com/cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
-                    <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/parag-shirsat-350029221/' id='devso' rel='noreferrer' target='_blank' title='follow us'></a>
+                    <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/parag-shirsat-350029221/' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
                     <hr/>
 
                 </div>
