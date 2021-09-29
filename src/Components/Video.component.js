@@ -7,7 +7,7 @@ const Video=()=>{
         <div className="card laptop text-center">
             {/* <i class="fa fa-circle cam" aria-hidden="true"></i> */}
             <div className="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/PkWuAgbbQYc" title="YouTube video" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/PkWuAgbbQYc" title="YouTube video" allowFullScreen></iframe>
             </div>
         </div>
         <div className="lap-line"></div>
