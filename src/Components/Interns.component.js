@@ -53,7 +53,7 @@ const Intern=()=>{
             <img src="https://www.w3schools.com/howto/img_avatar2.png" className="card-pic img-fluid" alt="..."/>
                 <div className="card-body">
                     
-                    <h5 className="card-title">Swheta Shinde</h5>
+                    <h5 className="card-title">Shweta Shinde</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Web Developer Intern (Sep-Oct 2021)</h6>
                     <p className="card-text">Hii all, I am shweta shinde I love coding as well as I always want to learn new things and I'm Web Developer Intern at cwipedia</p>
                     <a aria-hidden='true' className='fa fa-github' href='https://github.com/Shwet1240' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
@@ -82,7 +82,7 @@ const Intern=()=>{
     ];
 
     return(<>
-    <div className=" "> 
+    <div className="intern-sec"> 
 
     <Carousel slides={slides}/>
 
