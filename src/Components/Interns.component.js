@@ -82,7 +82,7 @@ const Intern=()=>{
     ];
 
     return(<>
-    <div className=" "> 
+    <div className="intern-sec"> 
 
     <Carousel slides={slides}/>
 

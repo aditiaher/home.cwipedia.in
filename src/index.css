@@ -178,6 +178,7 @@ footer{
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   }
+  
 }
 @media only screen and (max-width: 800px) {
   .laptop{
@@ -196,8 +197,13 @@ footer{
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   }
+  .intern-sec{
+    margin-bottom: 300px;
+  }
 }
-
+.intern-sec{
+  margin-top: 30px;
+}
 .card-pic{
   width: 100px;
   margin-top: -50px;
@@ -206,7 +212,14 @@ footer{
   border-radius: 50px;
   border:solid 4px #120E43;
   box-shadow: 0 5px 10px 0 rgba(20, 23, 71, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
 
+}
+.card-pic:hover{
+  top:-5px; 
+  transition: all 0.15s cubic-bezier(0.29, 0.73, 0.74, 1.02);
 }
 .intern-card{
   margin-top: 80px;
@@ -217,14 +230,14 @@ footer{
 
   transition: all 0.25s;
   border-radius: 25px;
-  position: relative;
+  /* position: relative;
   top: 0;
-  transition: top ease 0.3s;
+  transition: top ease 0.3s; */
 }
 .intern-card:hover{
   box-shadow: 0 14px 28px rgba(20, 7, 46, 0.25), 0 10px 10px rgba(0,0,0,0.22);
-  top:-5px;
-  transition: all 0.15s cubic-bezier(0.29, 0.73, 0.74, 1.02);
+  /* top:-5px; */
+  /* transition: all 0.15s cubic-bezier(0.29, 0.73, 0.74, 1.02); */
 }
 .navbar .navbar-nav .nav-link:hover {
   color: #383CC1;
