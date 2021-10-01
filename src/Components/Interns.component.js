@@ -1,5 +1,6 @@
 import {Carousel} from '3d-react-carousal';
 import Ram from "../assets/interns/ShriRam.jpeg"
+import parag from "../assets/interns/parag.jpeg"
 
 const Intern=()=>{
 
@@ -34,19 +35,49 @@ const Intern=()=>{
         </div>,
 
         <div className="card intern-card">
-            <img src="https://www.w3schools.com/w3images/avatar2.png" className="card-pic img-fluid" alt="..."/>
+            <img src={parag} className="card-pic img-fluid" alt="..."/>
                 <div className="card-body">
                     
                     <h5 className="card-title">Parag Shirsat</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Web Developer Intern (Sep-Oct 2021)</h6>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p className="card-text">Hello all,I am Parag Shirsat from Nashik,Maharashtra.I have completed diploma in Computer Engineering.I am web developer intern at cwipedia.</p>
                     <a aria-hidden='true' className='fa fa-github' href='https://github.com/ParagShirsat' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
-                    <a aria-hidden='true' className='fa fa-instagram' href='http://instagram.com/cwipedia.in' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
+                    <a aria-hidden='true' className='fa fa-instagram' href='https://www.instagram.com/parag_s_2002/' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
                     <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/parag-shirsat-350029221/' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
                     <hr/>
 
                 </div>
             </div>,
+
+            <div className="card intern-card">
+            <img src="https://www.w3schools.com/howto/img_avatar2.png" className="card-pic img-fluid" alt="..."/>
+                <div className="card-body">
+                    
+                    <h5 className="card-title">Swheta Shinde</h5>
+                    <h6 className="card-subtitle mb-2 text-muted">Web Developer Intern (Sep-Oct 2021)</h6>
+                    <p className="card-text">Hii all, I am shweta shinde I love coding as well as I always want to learn new things and I'm Web Developer Intern at cwipedia</p>
+                    <a aria-hidden='true' className='fa fa-github' href='https://github.com/Shwet1240' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
+                    {/* <a aria-hidden='true' className='fa fa-instagram' href='' id='devso' rel='noreferrer' target='_blank' title='follow me'></a> */}
+                    <a aria-hidden='true' className='fa fa-linkedin' href='https://www.linkedin.com/in/shweta-shinde-073380211' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
+                    <hr/>
+
+                </div>
+            </div>,
+
+            // <div className="card intern-card">
+            //             <img src="https://www.w3schools.com/w3images/avatar2.png" className="card-pic img-fluid" alt="..."/>
+            //                 <div className="card-body">
+                                
+            //                     <h5 className="card-title">Name</h5>
+            //                     <h6 className="card-subtitle mb-2 text-muted">Web Developer Intern (Sep-Oct 2021)</h6>
+            //                     <p className="card-text">Hello all,I cwipedia.</p>
+            //                     <a aria-hidden='true' className='fa fa-github' href='' id='devso' rel='noreferrer' target='_blank' title='Follow me'></a>
+            //                     <a aria-hidden='true' className='fa fa-instagram' href='' id='devso' rel='noreferrer' target='_blank' title='follow me'></a>
+            //                     <a aria-hidden='true' className='fa fa-linkedin' href='' id='devso' rel='noreferrer' target='_blank' title='lets connect'></a>
+            //                     <hr/>
+
+            //                 </div>
+            //             </div>
     
     ];
 
