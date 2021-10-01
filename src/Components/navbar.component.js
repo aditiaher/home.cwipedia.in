@@ -19,11 +19,41 @@ const Navbar = ()=>{
                         <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="https://www.cwipedia.in">blog</a>
                         </li>
+                        <li className='nav-item dropdown'>
+                    <a aria-expanded='false' className='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='#' id='navbarDropdown' role='button'>
+                                        Diploma Engineering
+                                    </a>
+                    <ul aria-labelledby='navbarDropdown' className='dropdown-menu'>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-e-content.html'>MSBTE E-content <span className='badge ' >New</span></a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-computer-engineering-group-mcqs.html'>MSBTE MCQ Question Banks</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-computerit-6th-sem-mcq-pdf.html'>Download 6th SEM MCQ</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-mcqs.html'>MSBTE MCQs 6th Sem </a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-5th-semester-mcqs-computer.html'>MSBTE MCQs 5th Sem </a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-4th-semester-mcqs-computer.html '>MSBTE MCQs 4th Sem</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-3rd-semester-mcqs-computer.html'>MSBTE MCQs 3rd Sem </a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-2nd-semester-mcq.html'>MSBTE MCQs 2nd Sem</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/blog-page.html'>Sample Question Paper</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-i-scheme-syllabus-for-all-diploma.html'>I Scheme Syllabus</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-model-answer.html'>Model Answer Paper</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/2021/04/msbte-manual-i-scheme.html'>MSBTE Lab Manuals </a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Exam'>Online Exam Practice</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Com'>Computer</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Civil'>Civil</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Mech'>Mechnaical</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Ele'>Electrical</a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/p/msbte-e-mcq-ejeneqetex-group.html'>EJ/EN/EQ/ET/EX
+                    Dept MCQ </a>
+                    <a className='dropdown-item' href='https://www.cwipedia.in/search/label/Notes'><b>Notes</b></a>
+                    </ul>
+                    </li>
                         <li className="nav-item">
                         <a className="nav-link" href="https://career.cwipedia.in">career</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="https://www.cwipedia.in/p/contact-us-demofont-familyarial.html">Contact</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="https://www.cwipedia.in/p/terms-and-conditions.html">Terms</a>
                         </li>
                     </ul>
                     <div className="d-flex justify-content-center">
