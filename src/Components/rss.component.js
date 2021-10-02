@@ -4,6 +4,7 @@ const RSS = ()=>{
     return(
         <>
           <div  className="container rss" > 
+          <h1 className="display-3">Blog</h1>
         {/* <div className="tex-center">
           
         </div> */}
