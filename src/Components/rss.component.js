@@ -4,6 +4,9 @@ const RSS = ()=>{
     return(
         <>
           <div  className="container rss" > 
+        {/* <div className="tex-center">
+          
+        </div> */}
 
         <div data-aos="zoom-in-down" className="shadow p-3 mb-5 bg-white rounded">    
             <h1 className="display-3">Diploma Search Engine</h1>

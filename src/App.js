@@ -1,3 +1,4 @@
+import RSSFeed from "./Backend/rssdata.backend";
 import About from "./Components/about.component";
 import Footer from "./Components/footer.component";
 import Head from "./Components/head.component";
@@ -26,6 +27,8 @@ function App() {
       <About/>
       <Location/>
       <Footer/>
+
+      <RSSFeed/>
 
     </div>
   );
