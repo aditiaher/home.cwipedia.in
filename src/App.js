@@ -1,35 +1,35 @@
-import RSSFeed from "./Backend/rssdata.backend";
-import About from "./Components/about.component";
-import Footer from "./Components/footer.component";
-import Head from "./Components/head.component";
-import CSer from "./Components/home-ser.component";
-import Intern from "./Components/Interns.component";
-import IScroll from "./Components/iscroll.component";
-import Location from "./Components/location.component";
-import Navbar from "./Components/navbar.component";
-import RSS from "./Components/rss.component";
-import Services from "./Components/services.component";
-import Video from "./Components/Video.component";
-
+import React, {Suspense} from "react";
+const RSSFeed =  React.lazy(() => import("./Backend/rssdata.backend"));
+const About =  React.lazy(() => import("./Components/about.component"));
+const Footer =  React.lazy(() => import("./Components/footer.component"));
+const Head =  React.lazy(() => import("./Components/head.component"));
+const CSer =  React.lazy(() => import("./Components/home-ser.component"));
+const Intern =  React.lazy(() => import("./Components/Interns.component"));
+const IScroll =  React.lazy(() => import("./Components/iscroll.component"));
+const Location =  React.lazy(() => import("./Components/location.component"));
+const Navbar =  React.lazy(() => import("./Components/navbar.component"));
+const RSS =  React.lazy(() => import("./Components/rss.component"));
+const Services =  React.lazy(() => import("./Components/services.component"));
+const Video =  React.lazy(() => import("./Components/Video.component"));
 
 function App() {
   return (
     <div className="App">
-     
-      <Navbar/>
-      <Head/>
-      <CSer/>
-      <Services/>
-      <Video/>
-      <RSS/>
-      <IScroll/>
-      <Intern/>
-      <About/>
-      <Location/>
-      <Footer/>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Navbar/>
+        <Head/>
+        <CSer/>
+        <Services/>
+        <Video/>
+        <RSS/>
+        <IScroll/>
+        <Intern/>
+        <About/>
+        <Location/>
+        <Footer/>
 
-      <RSSFeed/>
-
+        <RSSFeed/>
+      </Suspense>
     </div>
   );
 }
