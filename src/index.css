@@ -285,3 +285,6 @@ footer {
 .navbar .navbar-nav .nav-link:hover::after {
   width: 100%;
 }
+.loginBtn{
+  margin: 5px;
+}
