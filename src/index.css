@@ -286,6 +286,7 @@ footer {
   width: 100%;
 }
 
+
 /* EXPLORE BUTTON */
 .explore-btn {
   background-color: rgb(108, 99, 255);
@@ -303,4 +304,23 @@ footer {
 
 .explore-btn:hover {
   background-color: black;
+}
+
+.loginBtn{
+  margin: 5px;
+  position: relative;
+}
+.loginBtn:hover{
+  top: -5px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(28, 6, 109, 0.19);
+}
+.loginBtn:active{
+  border-radius: .25rem !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+.loginBtn:focus{
+  outline: none;
+  box-shadow: none;
 }
