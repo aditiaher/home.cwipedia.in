@@ -210,7 +210,11 @@ const Navbar = () => {
                                 checked={isDarkMode}
                                 size={60}
                                 /> */}
-              </ul>
+              </ul>              
+            </div>
+            <div className="d-flex justify-content-right">
+              <button type="button" class="btn btn-primary loginBtn">Login</button>
+              <button type="button" class="btn btn-secondary loginBtn">Create Account</button>
             </div>
           </div>
         </div>
