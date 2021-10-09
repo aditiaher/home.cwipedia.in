@@ -285,3 +285,51 @@ footer {
 .navbar .navbar-nav .nav-link:hover::after {
   width: 100%;
 }
+
+
+.zoom-in-zoom-out {
+  color: #349beb;
+  margin-right: 10px;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.parrent-div{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom-out-zoom-in {
+  color: #349beb;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  animation: zoom-out-zoom-in 2s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes zoom-out-zoom-in {
+  0% {
+    transform: scale(1.5, 1.5);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.5, 1.5);
+  }
+}
