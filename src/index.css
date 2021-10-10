@@ -337,3 +337,40 @@ footer {
 html, body, #root, .App, #app>div{
   height: 100%
 }
+/* EXPLORE BUTTON */
+.explore-btn {
+  background-color: rgb(108, 99, 255);
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+  margin-bottom: 36px;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: black;
+}
+
+.loginBtn{
+  margin: 5px;
+  position: relative;
+}
+.loginBtn:hover{
+  top: -5px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(28, 6, 109, 0.19);
+}
+.loginBtn:active{
+  border-radius: .25rem !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+.loginBtn:focus{
+  outline: none;
+  box-shadow: none;
+}
