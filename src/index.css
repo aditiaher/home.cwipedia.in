@@ -292,7 +292,7 @@ footer {
   margin-right: 10px;
   animation: zoom-in-zoom-out 2s ease-out infinite;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .parrent-div{
@@ -306,7 +306,7 @@ footer {
 .zoom-out-zoom-in {
   color: #349beb;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   animation: zoom-out-zoom-in 2s ease-out infinite;
 }
 
