@@ -213,8 +213,8 @@ const Navbar = () => {
               </ul>              
             </div>
             <div className="d-flex justify-content-right">
-              <button type="button" className="btn btn-primary loginBtn">Login</button>
-              <button type="button" className="btn btn-secondary loginBtn">Create Account</button>
+              <button type="button" className="btn btn-primary cbtn">Login</button>
+              <button type="button" className="btn btn-secondary cbtn">Create Account</button>
             </div>
           </div>
         </div>
