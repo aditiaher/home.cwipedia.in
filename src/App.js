@@ -1,4 +1,5 @@
 import React, {Suspense} from "react";
+import LoadingComponent from "./Components/loadingComponent.component";
 const RSSFeed =  React.lazy(() => import("./Backend/rssdata.backend"));
 const About =  React.lazy(() => import("./Components/about.component"));
 const Footer =  React.lazy(() => import("./Components/footer.component"));
@@ -15,7 +16,7 @@ const Video =  React.lazy(() => import("./Components/Video.component"));
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<LoadingComponent/>}>
         <Navbar/>
         <Head/>
         <CSer/>
