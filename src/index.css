@@ -16,10 +16,10 @@
   width: 100%;
   background: #fff;
 }
-.btn:focus{
+.btn:focus {
   border: none !important;
   box-shadow: none !important;
-  }
+}
 .head-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -283,7 +283,6 @@ footer {
   width: 100%;
 }
 
-
 .zoom-in-zoom-out {
   color: #349beb;
   margin-right: 10px;
@@ -292,7 +291,7 @@ footer {
   font-weight: bold;
 }
 
-.parrent-div{
+.parrent-div {
   display: flex;
   width: 100%;
   height: 100%;
@@ -331,8 +330,12 @@ footer {
   }
 }
 
-html, body, #root, .App, #app>div{
-  height: 100%
+html,
+body,
+#root,
+.App,
+#app > div {
+  height: 100%;
 }
 /* EXPLORE BUTTON */
 .explore-btn {
@@ -371,20 +374,31 @@ html, body, #root, .App, #app>div{
   outline: none;
   box-shadow: none;
 }*/
-.cbtn{
-  background: rgb(42,72,223);
-  background: linear-gradient(90deg, rgba(42,72,223,1) 4%, rgba(129,57,184,0.7819502801120448) 100%);
+.cbtn {
+  background: rgb(42, 72, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 72, 223, 1) 4%,
+    rgba(129, 57, 184, 0.7819502801120448) 100%
+  );
   border-radius: 5px;
   margin: 5px;
   border: none;
   color: white;
-  text-align: center;position: relative;
+  text-align: center;
+  position: relative;
   top: 0;
   transition: top ease 0.3s;
   text-decoration: none;
-  }
-.cbtn:hover{
+}
+.cbtn:hover {
   top: -5px;
   transition: all 0.15s cubic-bezier(0.29, 0.73, 0.74, 1.02);
   box-shadow: 0 4px 8px 0 rgb(52, 9, 133), 0 6px 20px 0 rgba(28, 6, 109, 0.19);
+}
+
+.react-3d-carousel .slider-container .slider-right div,
+.react-3d-carousel .slider-container .slider-left div {
+  color: #000 !important;
+  border: none !important;
 }
