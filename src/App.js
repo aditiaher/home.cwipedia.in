@@ -2,6 +2,7 @@ import React, {Suspense} from "react";
 import LoadingComponent from "./Components/loadingComponent.component";
 const RSSFeed =  React.lazy(() => import("./Backend/rssdata.backend"));
 const About =  React.lazy(() => import("./Components/about.component"));
+const Accordion =  React.lazy(() => import("./Components/accordion.component"));
 const Footer =  React.lazy(() => import("./Components/footer.component"));
 const Head =  React.lazy(() => import("./Components/head.component"));
 const CSer =  React.lazy(() => import("./Components/home-ser.component"));
@@ -25,6 +26,7 @@ function App() {
         <RSS/>
         <IScroll/>
         <Intern/>
+        <Accordion/>
         <About/>
         <Location/>
         <Footer/>
