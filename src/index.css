@@ -50,6 +50,11 @@ img.vert-move {
 .heading {
   margin: 20px;
 }
+
+.card-title {
+    margin-top: 12px;
+}
+
 .ccardLink {
   text-decoration: none;
   color: black;
